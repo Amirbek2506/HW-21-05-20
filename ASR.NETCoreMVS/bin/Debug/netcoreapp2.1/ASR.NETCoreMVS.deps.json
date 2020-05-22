@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "b18585106e2c483585045a89632d03bcd77394d6"
+    "signature": "9671151ad156cf36e6a2ac37ee4c497276366386"
   },
   "compilationOptions": {
     "defines": [
@@ -29,6 +29,7 @@
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.10",
+          "Nancy.Bootstrappers.StructureMap": "1.4.3",
           "System.Data.SqlClient": "4.8.1"
         },
         "runtime": {
@@ -402,6 +403,32 @@
           "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
+      "Nancy/1.4.3": {
+        "runtime": {
+          "lib/net40/Nancy.dll": {
+            "assemblyVersion": "1.4.2.0",
+            "fileVersion": "1.4.2.0"
+          }
+        },
+        "compile": {
+          "lib/net40/Nancy.dll": {}
+        }
+      },
+      "Nancy.Bootstrappers.StructureMap/1.4.3": {
+        "dependencies": {
+          "Nancy": "1.4.3",
+          "structuremap": "4.0.1.318"
+        },
+        "runtime": {
+          "lib/net45/Nancy.Bootstrappers.StructureMap.dll": {
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.4.3.0"
+          }
+        },
+        "compile": {
+          "lib/net45/Nancy.Bootstrappers.StructureMap.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
@@ -453,6 +480,22 @@
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
           }
+        }
+      },
+      "structuremap/4.0.1.318": {
+        "runtime": {
+          "lib/net40/StructureMap.Net4.dll": {
+            "assemblyVersion": "4.0.1.318",
+            "fileVersion": "4.0.1.318"
+          },
+          "lib/net40/StructureMap.dll": {
+            "assemblyVersion": "4.0.1.318",
+            "fileVersion": "4.0.1.318"
+          }
+        },
+        "compile": {
+          "lib/net40/StructureMap.Net4.dll": {},
+          "lib/net40/StructureMap.dll": {}
         }
       },
       "System.Composition/1.0.31": {
@@ -3716,6 +3759,20 @@
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
+    "Nancy/1.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ZqIS2ZpFbQ5hgv1W/3qBz/gJd0J81+/3S31Hs6bATsexi3UDFvMrjL/i0qlrZRE0dquRHRztYDWoGl9jeb0aQ==",
+      "path": "nancy/1.4.3",
+      "hashPath": "nancy.1.4.3.nupkg.sha512"
+    },
+    "Nancy.Bootstrappers.StructureMap/1.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WIbuOKj9HV5RcZlk6A6844/+AnFIgCbm7vT3d3YIWKHM+xUzFlobBHtVGhBaUAsg0Pwlb2M0SQgNZQwRQ5/I0w==",
+      "path": "nancy.bootstrappers.structuremap/1.4.3",
+      "hashPath": "nancy.bootstrappers.structuremap.1.4.3.nupkg.sha512"
+    },
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
@@ -3757,6 +3814,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "structuremap/4.0.1.318": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0f6QfOKZ0eqGt04t5wciGk6lg3J/+ytSeKWfZ5VUKpcjURu5PVt8DLtNsE1KWhKHMNW3NBQSF8h3XivtP6qZQ==",
+      "path": "structuremap/4.0.1.318",
+      "hashPath": "structuremap.4.0.1.318.nupkg.sha512"
     },
     "System.Composition/1.0.31": {
       "type": "package",

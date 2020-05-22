@@ -2748,6 +2748,28 @@
           }
         }
       },
+      "Nancy/1.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Nancy.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Nancy.dll": {}
+        }
+      },
+      "Nancy.Bootstrappers.StructureMap/1.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Nancy": "1.4.3",
+          "structuremap": "4.0.1.318"
+        },
+        "compile": {
+          "lib/net45/Nancy.Bootstrappers.StructureMap.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Nancy.Bootstrappers.StructureMap.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -3023,6 +3045,17 @@
             "assetType": "native",
             "rid": "win-x86"
           }
+        }
+      },
+      "structuremap/4.0.1.318": {
+        "type": "package",
+        "compile": {
+          "lib/net40/StructureMap.Net4.dll": {},
+          "lib/net40/StructureMap.dll": {}
+        },
+        "runtime": {
+          "lib/net40/StructureMap.Net4.dll": {},
+          "lib/net40/StructureMap.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -7550,6 +7583,31 @@
         "version.txt"
       ]
     },
+    "Nancy/1.4.3": {
+      "sha512": "4ZqIS2ZpFbQ5hgv1W/3qBz/gJd0J81+/3S31Hs6bATsexi3UDFvMrjL/i0qlrZRE0dquRHRztYDWoGl9jeb0aQ==",
+      "type": "package",
+      "path": "nancy/1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Nancy.dll",
+        "lib/net40/Nancy.xml",
+        "nancy.1.4.3.nupkg.sha512",
+        "nancy.nuspec"
+      ]
+    },
+    "Nancy.Bootstrappers.StructureMap/1.4.3": {
+      "sha512": "WIbuOKj9HV5RcZlk6A6844/+AnFIgCbm7vT3d3YIWKHM+xUzFlobBHtVGhBaUAsg0Pwlb2M0SQgNZQwRQ5/I0w==",
+      "type": "package",
+      "path": "nancy.bootstrappers.structuremap/1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Nancy.Bootstrappers.StructureMap.dll",
+        "nancy.bootstrappers.structuremap.1.4.3.nupkg.sha512",
+        "nancy.bootstrappers.structuremap.nuspec"
+      ]
+    },
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -8030,6 +8088,30 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "structuremap/4.0.1.318": {
+      "sha512": "x0f6QfOKZ0eqGt04t5wciGk6lg3J/+ytSeKWfZ5VUKpcjURu5PVt8DLtNsE1KWhKHMNW3NBQSF8h3XivtP6qZQ==",
+      "type": "package",
+      "path": "structuremap/4.0.1.318",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/dotnet/StructureMap.dll",
+        "lib/dotnet/StructureMap.pdb",
+        "lib/net40/StructureMap.Net4.dll",
+        "lib/net40/StructureMap.Net4.pdb",
+        "lib/net40/StructureMap.dll",
+        "lib/net40/StructureMap.pdb",
+        "lib/net40/StructureMap.xml",
+        "lib/portable-net40+wp8+win8/StructureMap.dll",
+        "lib/portable-net40+wp8+win8/StructureMap.pdb",
+        "lib/portable-net40+wp8+win8/StructureMap.xml",
+        "lib/portable-net45+wp81+win81/StructureMap.dll",
+        "lib/portable-net45+wp81+win81/StructureMap.pdb",
+        "lib/portable-net45+wp81+win81/StructureMap.xml",
+        "structuremap.4.0.1.318.nupkg.sha512",
+        "structuremap.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -12596,6 +12678,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10",
+      "Nancy.BootStrappers.StructureMap >= 1.4.3",
       "System.Data.SqlClient >= 4.8.1"
     ]
   },
@@ -12667,6 +12750,10 @@
             "target": "Package",
             "version": "[2.1.10, )"
           },
+          "Nancy.BootStrappers.StructureMap": {
+            "target": "Package",
+            "version": "[1.4.3, )"
+          },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.1, )"
@@ -12679,5 +12766,37 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Nancy 1.4.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1\", а не целевой платформы проекта \".NETCoreApp,Version=v2.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Nancy",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Nancy.Bootstrappers.StructureMap 1.4.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1\", а не целевой платформы проекта \".NETCoreApp,Version=v2.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Nancy.Bootstrappers.StructureMap",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"structuremap 4.0.1.318\" был восстановлен с помощью \".NETFramework,Version=v4.6.1\", а не целевой платформы проекта \".NETCoreApp,Version=v2.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "structuremap",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

@@ -67,6 +67,10 @@
               "target": "Package",
               "version": "[2.1.10, )"
             },
+            "Nancy.BootStrappers.StructureMap": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.1, )"
