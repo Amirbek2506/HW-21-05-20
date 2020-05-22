@@ -12,3 +12,12 @@ D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS
 D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.RazorTargetAssemblyInfo.cache
 D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.dll
 D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.pdb
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\bin\Debug\netcoreapp2.1\ASR.NETCoreMVS.Views.dll
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\bin\Debug\netcoreapp2.1\ASR.NETCoreMVS.Views.pdb
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.TagHelpers.input.cache
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.TagHelpers.output.cache
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.RazorCoreGenerate.cache
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.RazorTargetAssemblyInfo.cs
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.Views.pdb
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.csproj.CopyComplete
