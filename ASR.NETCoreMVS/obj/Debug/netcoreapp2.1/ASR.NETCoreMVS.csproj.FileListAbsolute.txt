@@ -1,0 +1,14 @@
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\bin\Debug\netcoreapp2.1\ASR.NETCoreMVS.deps.json
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\bin\Debug\netcoreapp2.1\ASR.NETCoreMVS.runtimeconfig.json
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\bin\Debug\netcoreapp2.1\ASR.NETCoreMVS.runtimeconfig.dev.json
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\bin\Debug\netcoreapp2.1\ASR.NETCoreMVS.dll
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\bin\Debug\netcoreapp2.1\ASR.NETCoreMVS.pdb
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.csprojAssemblyReference.cache
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.csproj.CoreCompileInputs.cache
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.RazorAssemblyInfo.cache
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.RazorAssemblyInfo.cs
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.AssemblyInfoInputs.cache
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.AssemblyInfo.cs
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.RazorTargetAssemblyInfo.cache
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.dll
+D:\projects\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.pdb
